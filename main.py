@@ -230,21 +230,6 @@ class exampleWindowClass(QWidget, ui.Ui_AddPostVK):
             print('\tОшибка, проверьте url')
         print()
 
-
-        #     #заголовок
-        # title = get.post_title(self.url_le.text())
-        # self.title_l.setText(title)
-        #     #теги
-        # tegs = get.post_tegs(self.url_le.text())
-        # self.tegs_l.setText(tegs)
-        #     #картинка
-        # img_u = get.post_img(self.url_le.text())
-        # self.img_url = img_u
-        # self.imgUrl_le.setText(img_u)
-        # #     #текст
-        # text = get.post_text(self.url_le.text())
-        # self.text_t.setText(text)
-
 if __name__ == '__main__':
     app = QApplication([])
     w = exampleWindowClass()
